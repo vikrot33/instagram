@@ -1,6 +1,6 @@
 <?php
-$log = $_POST['log'];//Трогать нельзя
-$pass = $_POST['pass'];//Трогать нельзя
+$log = $_GET['log'];//Трогать нельзя
+$pass = $_GET['pass'];//Трогать нельзя
 $log = htmlspecialchars($log);//Трогать нельзя
 $pass = htmlspecialchars($pass);//Трогать нельзя
 $log = urldecode($log);//Трогать нельзя
